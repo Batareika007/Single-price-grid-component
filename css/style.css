@@ -58,10 +58,6 @@ body {
 
 }
 
-.flex_item {
-    flex: 1 1 auto;
-}
-
 /* ===================
         white box
     ================== */
@@ -77,11 +73,13 @@ body {
 h1 {
     font-weight: 700;
     color: hsl(179, 62%, 43%);
+    font-size: 22px;
 
 }
 
 h2 {
     color: hsl(71, 73%, 54%);
+    font-size: 17px;
 
 
 }
