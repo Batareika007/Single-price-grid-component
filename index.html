@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Single Price Grid Component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
+
 <body>
-  Join our community
+  <div class="flex_container">
 
-  30-day, hassle-free money back guarantee
+    <!-- white box -->
+    
+      <div class="white_box">
+        <h1>Join our community</h1>
+        <h2> 30-day, hassle-free money back guarantee</h2>
+        <p class="white_box_paragrah">Gain access to our full library of tutorials along with expert code reviews.
+          Perfect for any developers who are serious about honing their skills.</p>
+      </div>
+    
+    <!-- Price box -->
+    
+      <div class="price">
+        <p class="price_header">
+          Monthly Subscription
+        </p>
 
-  Gain access to our full library of tutorials along with expert code reviews. 
-  Perfect for any developers who are serious about honing their skills.
 
-  Monthly Subscription
+        <div class="price_per_month">
+          <span class="amount_per_month">&dollar;29</span> per month
+        </div>
 
-  &dollar;29 per month
 
-  Full access for less than &dollar;1 a day
+        <p class="price_paragraph">
+          Full access for less than &dollar;1 a day
+        </p>
 
-  Sign Up
+        <button>
+          Sign Up
+        </button>
+      </div>
+    
+    <!-- Why us box -->
 
-  Why Us
+    
+      <div class="why_us">
+        <p class="why_us_header">Why Us</p>
+        <ul>
+          <li> Tutorials by industry experts</li>
+          <li> Peer &amp; expert code review</li>
+          <li> Coding exercises</li>
+          <li> Access to our GitHub repos</li>
+          <li> Community forum</li>
+          <li> Flashcard decks</li>
+          <li> New videos every week</li>
+        </ul>
+      </div>
+    
+  </div>
 
-  Tutorials by industry experts
-  Peer &amp; expert code review
-  Coding exercises
-  Access to our GitHub repos
-  Community forum
-  Flashcard decks
-  New videos every week
-  
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Alexei</a>.
     </p>
   </footer>
 </body>
+
 </html>
