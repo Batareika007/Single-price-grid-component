@@ -40,7 +40,7 @@ The designs were created to the following widths:
 body {
     font-family: 'Karla';
     background-color: hsl(204, 43%, 93%);
-    margin: 0;
+    margin: 10% auto;
     /* width: 1440px; */
 }
 
@@ -54,9 +54,10 @@ body {
     width: 640px;
     display: flex;
     flex-wrap: wrap;
-    margin: 10% auto;
+    margin: 0 auto;
 
 }
+
 
 /* ===================
         white box
@@ -136,7 +137,7 @@ h2 {
 button {
     color: white;
     background-color: hsl(71, 73%, 54%);
-    /* border: none; */
+    border: none;
     border-radius: 7px;
     padding: 17px 92px;
     font-weight: 700;
@@ -185,6 +186,11 @@ li{
 /* ====================
         footer
     ========================*/
+
+footer{
+    /* display: inline-block; */
+    margin: 10% 10%;
+}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -192,4 +198,135 @@ li{
 
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:639px)
+{.flex_container{
+    flex-direction: column;
+    width: 311px;
+}
+/* ===================
+        white box
+    ================== */
+
+    .white_box {
+        background-color: white;
+        color: hsl(218, 22%, 67%);
+        padding: 29px 24px 34px 22px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+    
+    h1 {
+        font-weight: 700;
+        color: hsl(179, 62%, 43%);
+        font-size: 14px;
+    
+    }
+    
+    h2 {
+        color: hsl(71, 73%, 54%);
+        font-size: 17px;
+    
+    
+    }
+    
+    .white_box_paragrah {
+        display: inline-block;
+        line-height: 25px;
+        font-size: 14px;
+        margin: 0;
+    
+    }
+    
+
+/* ==================
+        Price Box
+    ==================*/
+    .price {
+        border-bottom-left-radius: 0px;
+        padding: 29px 24px 0px 22px;
+        flex: 1 0 228px;
+    }
+    
+    .price_header {
+        padding-top: 0;
+        padding-left: 0;
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 700;
+        margin: 0;
+    }
+    
+    .price_per_month{
+        color: hsl(179, 62%, 53%);
+    }
+    
+    .amount_per_month {
+        color: white;
+        font-weight: 700;
+        font-size: 2em;
+        position: relative;
+        top: 5px;
+        margin-right: 5px;
+        padding-left: 0;
+    
+    }
+    
+    .price_paragraph{
+        padding-left: 0;
+        margin-bottom: 0;
+    }
+    
+    button {
+        color: white;
+        background-color: hsl(71, 73%, 54%);
+        border: none;
+        width: 263px;
+        border-radius: 7px;
+        padding: 13px 98px;
+        font-weight: 700;
+        font-family: 'Karla';
+        font-size: 16px;
+        margin-top: 34px;
+        margin-left: 0;
+    
+    }
+/* ==================
+        Why Us Box 
+    ==================*/
+
+    .why_us {
+        /* max-width: 320px; */
+        height: 258px;
+        color: white;
+        background-color: hsl(179, 62%, 53%);
+        /* padding: 39px 40px 38px 42px; */
+        border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+        flex: 1 1 auto;
+    }
+    
+    .why_us_header {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 0;
+        padding-left: 40px;
+        padding-top: 39px;
+    }
+    
+    ul {
+        list-style-type: none;
+        font-size: 13px;
+        /* padding-left: 0; */
+    
+    }
+    li{
+        line-height: 19px;
+        color:hsl(204, 43%, 93%);
+    }
+
+
+
 }
