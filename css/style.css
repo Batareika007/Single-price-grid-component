@@ -55,6 +55,9 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
+    border-bottom-right-radius: 8px;
+        border-bottom-left-radius: 8px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -144,7 +147,14 @@ button {
     font-family: 'Karla';
     font-size: 16px;
     margin-left: 42px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.2);
+}
 
+button:active{
+    /* border-top: 4px solid grey; */
+    box-shadow: none;
+    position: relative;
+    top:8px;
 }
 
 
